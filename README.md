@@ -4,7 +4,7 @@
 
 Ready!! To Use
 1. npm i
-2. node index.js
+2. npm start
 
 ![image](https://user-images.githubusercontent.com/65026164/148353319-04969faa-2561-4619-8797-6c8d3e9ed545.png)
 
