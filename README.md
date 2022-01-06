@@ -6,3 +6,10 @@ Ready!! To Use
 1. npm i
 2. node index.js
 
+![image](https://user-images.githubusercontent.com/65026164/148353319-04969faa-2561-4619-8797-6c8d3e9ed545.png)
+
+
+If You Want To Edit Or Use For Personal Project
+1. Make Sure You edit address in views > gen.html line number 16 and 17
+2. change localhost to your domain name in gen.html
+
