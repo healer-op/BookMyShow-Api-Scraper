@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow</title>
+</head>
+<body>
+    <a id="link" href=""></a>
+    <p>Use Json View Extention To View Properly</p>
+    <script>
+        const params = new URLSearchParams(document.location.search);
+        var city = params.get("city");
+        if(city!="ooo"){
+            document.getElementById("link").href = `http://localhost:3000/movies/${city}`;
+            document.getElementById("link").innerHTML = `http://localhost:3000/movies/${city}`;
+        }
+        else{
+            document.getElementById("link").innerHTML = `You Cant Select That`;
+        }
+    </script>
+</body>
+</html>
